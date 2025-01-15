@@ -20,6 +20,7 @@
     "dist"
   ],
   "scripts": {
+    "preinstall": "bun run build",
     "build": "rm -rf dist && bun build src/index.ts --outdir ./dist --target bun --minify --external elysia && tsc"
   },
   "repository": {
