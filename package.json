@@ -28,8 +28,8 @@
     "url": "git+https://github.com/tobias-kaerst-software/elysia-helmet.git"
   },
   "devDependencies": {
-    "bun-types": "latest",
-    "elysia": "^1.2.0",
+    "@types/bun": "^1.2.3",
+    "elysia": "^1.2.21",
     "typescript": "^5.5.2"
   },
   "peerDependencies": {
